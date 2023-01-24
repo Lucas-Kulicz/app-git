@@ -21,7 +21,7 @@
 
 ### Geral
 
-As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leonardo ou *nix /home/leonardo).
+As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Daniel ou *nix /home/Daniel).
 
 As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
@@ -92,6 +92,7 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 ##### Comitar informando mensagem
 
 	git commit meuarquivo.txt -m "minha mensagem de commit"
+	git commit -m "minha mensagem de commit" esse seria o caminho sem especificar arquivos, para pegar todos os arquivos.
 
 ### Remover arquivo/diretório
 
@@ -441,7 +442,3 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	
 	git bisect reset
  	
-
-# Contribuições
-
-Sinta-se a vontade para realizar adicionar mais informações ou realizar correções. Fork me!
